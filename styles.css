@@ -1,28 +1,3 @@
-/*{
+*{
     box-sizing: border-box;
 }
-.box{
-    border: 4px solid lightgrey;
-    height: 100px;
-        width: 100px;
-}
-
-.box-small {
-    height: 50x;
-    width: 50px;
-    margin-left: 24px;
-}
-
-.box-wrapper {
-    display: flex;
-    align-items: center;
-}
-
-.container {
-    border: 4px solid lightgrey;
-    display: flex;
-    justify-content: space-between;
-    padding: 24px;
-
-}
-
