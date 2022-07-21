@@ -24,7 +24,6 @@ nav {
 
 ul{
     display: flex;    
-    padding-top: 30px;
 }
 
 li{
@@ -44,7 +43,7 @@ header{
 }
 
 
-h1{
+h1 {
     padding-bottom: 24px;
     padding-top: 24px;
 }
@@ -82,7 +81,13 @@ button{
     color: #000;
     font-size: 24px;
 }
-
+.row{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
