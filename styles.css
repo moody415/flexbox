@@ -18,21 +18,27 @@ nav {
 
 }
 
-.logo{
+.logo {
     width: 300px;
 }
 
-ul{
+ul {
     display: flex;    
 }
 
-li{
+li {
     list-style-type: none;
     padding-left: 16px;
 }
 
+a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
 
-header{
+}
+
+header {
     background-color: #eadcff;
     height: calc(100vh-70px);
     padding: 24px;
@@ -42,53 +48,39 @@ header{
 
 }
 
-
 h1 {
-    padding-bottom: 24px;
-    padding-top: 24px;
+    font-size: 72px;
 }
 
-
-
-.logo{
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    padding-left: 16px;
-}
-.laptop{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.subheader{
+.subheader {
     font-size: 36px;
     margin: 16px 0 24px 0;
 }
 
-
 button{
-    background-color: turquoise;
-    cursor: pointer;
-    border: none;
-    font-size: 24px;
+    background-color: #05c7cf;
     color: white;
-    padding: 8 16px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
 }
 
-.a{
-    color: #000;
-    font-size: 24px;
-}
-.row{
+.row {
     width: 100%;
-    max-width: 1000px;
+    max-width: 800pxs;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/*
+   
+   ABOUT
+
+*/  
 
 
+#about {
+    padding: 48px 0;
+}
 
