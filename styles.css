@@ -37,7 +37,7 @@ header{
     background-color: #eadcff;
     height: calc(100vh-70px);
     padding: 24px;
-    display: flex;  
+    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -57,14 +57,25 @@ h1{
     width: 300px;
     padding-left: 16px;
 }
+.laptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.subheader{
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
 
 
 button{
     background-color: turquoise;
     cursor: pointer;
     border: none;
-    font: 24px;
+    font-size: 24px;
+    color: white;
+    padding: 8 16px;
 }
 
 .a{
