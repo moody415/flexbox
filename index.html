@@ -10,61 +10,91 @@
   <body>
     <section>
       <nav>
-        <figure>
-          <img
-            src=".//HTML Practise Assets/FES.svg"
-            class="logo"
-            alt="frontend logo"
-          />
-        </figure>
+        <img
+          src=".//HTML Practise Assets/FES.svg"
+          class="logo"
+          alt="homepage"
+        />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <header>
-        <div>
-          <h1>Best place to learn Frontend</h1>
-          <h2>Go from an absoulte beignner to pro with a simplified process</h2>
-          <button>Submit</button>
+        <div class="row">
+          <div>
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader">
+              Go from an absolute beginner to pro with a simplified process
+            </p>
+            <button>Start Now</button>
+          </div>
           <figure>
-            <img src=".//HTML Practise Assets/laptop.png" alt="laptop image" />
+            <img
+              src=".//HTML Practise Assets/laptop.png"
+              id="laptop"
+              alt="laptop image"
+            />
           </figure>
         </div>
       </header>
     </section>
 
     <main>
-      <div>
-        <h1>About</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum,
-          facere.
-        </p>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, facilis?
-        </p>
+      <section id="about">
+        <h2>About</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore,
+            consequatur!
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+            nihil!
+          </p>
+        </div>
         <figure>
           <img src=".//HTML Practise Assets/about.jpg" alt="about image" />
         </figure>
-      </div>
-    </main>
+      </section>
 
-    <main>
-      <div>
-        <h1>Discord</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-          unde.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ab?
-        </p>
+      <section id="discord">
+        <h2>Discord</h2>
         <figure>
           <img src=".//HTML Practise Assets/discord.png" alt="discord image" />
         </figure>
-      </div>
+        <div>
+          <p>Join the discord if you want help with your pogramming journey.</p>
+          <p>
+            There are over 2,000 people in the server talking about frontend and
+            helping each other with code.
+          </p>
+          <p>Its also absolutely free to join!</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div>
+          <form action=""></form>
+          <input type="email" placeholder=" Ex: johndoe@email.com" />
+          <textarea name="" id="" placeholder="Message"></textarea>
+          <button>Submit</button>
+        </div>
+      </section>
     </main>
+    <footer>
+      <figure>
+        <img src=".//HTML Practise Assets/FES.svg" alt="frontend logo" />
+      </figure>
+      <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#courses">Courses</a>
+      </div>
+      <p>&copy; Front End Simplifed</p>
+    </footer>
   </body>
 </html>
