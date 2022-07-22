@@ -102,3 +102,13 @@ h2{
     
 }
 
+.section__description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section__description--para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
