@@ -80,9 +80,16 @@ button{
 */  
 
 
-#about {
+#about,
+#discord,
+#contact,
+footer {
     padding: 48px 0;
 
+}
+
+#about {
+    background-color: #f8ffdc;
 }
 
 h2{
@@ -148,3 +155,35 @@ h2{
      font-size: 20px;
      padding: 6px 12px;
  }
+
+ /* 
+ 
+   Footer
+
+*/
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer__logo {
+    max-width: 480px;
+}
+
+footer__links {
+    margin-bottom: 32px;
+}
+
+footer__link {
+    padding: 0 16px;
+}
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 720px) {
+    .row{
+        flex-direction: column;
+    }
+}
